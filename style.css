@@ -2,16 +2,21 @@
   .container{  
     display: grid;
     grid-template-columns: (4,1fr);
-    grid-template-rows: 350px;
+    grid-template-rows: 47%;
     row-gap: 20px;
     column-gap: 28px;
+  }
+  .attribution{
+    position: absolute;
+    bottom: 8px;
+    left: auto;
   }
   
   #violet{
     background-image: url(images/bg-pattern-quotation.svg);
     background-repeat: no-repeat;
     background-position: top right;
-    background-position-x: 65%;
+    background-position-x: 70%;
     background-size: 26%;
     color: hsl(0, 0%, 100%);
     background-color: hsl(263, 55%, 52%);
@@ -60,12 +65,12 @@
   }
   .textgras{
     width:65%;
-    font-size: 20px;
+    font-size: 22px;
     font-weight:bold;
   }
   .text{
     width:85%;
-    line-height: 22px;
+    line-height: 21px;
     font-size: 13px;
     font-weight: 600;
     opacity: 50%;
@@ -98,6 +103,8 @@
   background-repeat: no-repeat;
   background-position: top right;
   background-position-x: 85%;
+  background-position-y: 5%;
+  background-size: 30%;
   color: hsl(0, 0%, 100%);
   background-color: hsl(263, 55%, 52%);
   height: 500px;
